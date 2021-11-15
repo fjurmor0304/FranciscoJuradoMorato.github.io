@@ -1,0 +1,104 @@
+body{
+    width: 100%;
+}
+
+header {
+    text-align: center;
+
+}
+
+nav {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.menu {
+    border: rgb(0, 0, 0);
+    border-style: inset; 
+    width: 7em;
+    text-align: center;
+
+}
+
+.menu:hover {
+    border: rgb(216, 216, 216);
+    border-style: inset;
+    width: 7em;
+    cursor: pointer;
+}
+
+.cuerpoPagina {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+}
+
+.zonaArticulosGrande {
+    flex-grow: 2;
+    flex-basis: 0;
+    margin: .5em;
+}
+
+.columnaArticulosPequeños {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: .5em;
+}
+
+.articuloIzquierda {
+    width: auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:flex-start;
+    align-content: flex-start;
+    padding: 1em;
+    margin: .5em;
+}
+
+.textos {  
+    flex-grow: 1;
+    flex-basis: 0;
+    padding-right: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items:stretch;
+}
+
+.imagenArticulo { 
+    width: 250px; 
+}
+
+.imagenArticulo img {
+    width: 250px;
+    height: 250px;
+}
+
+.articuloPequeño {
+    padding: 1em;
+    margin: .5em;
+}
+
+.imagenArticuloPequeño img {
+    width: 250px;
+    height: 150px;
+}
+
+.tituloArticulo {
+    flex-grow: 1;
+}
+
+.TextoArticulo {
+    flex-grow: 1;
+}
+
+
+
